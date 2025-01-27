@@ -61,7 +61,7 @@ client.on("messageCreate", async (message) => {
       ) {
         try {
           setTimeout(async () => {
-            await message.clickButton("5265bb295db155a68949561cb9e50715");
+            await message.clickButton();
             console.log(
               `Successfully clicked the button for message: ${message.id}`
             );
